@@ -1,38 +1,50 @@
 /* General */
 * {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(245, 204, 204);
     font-family: 'Archivo Black', sans-serif;
 }
 
 body {
-    margin: 0;
-}
-
-.container {
-    width: 1080px;
     margin: 0 auto;
 }
 
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 1080px;
+    margin: 0;
+}
+
+.second-container {
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    margin-top:50px;
+    border-radius: 2%;
+    text-align: center;
+}
 /* Header */
 
 #main-header {
     background-color: rgb(255, 255, 255);
-    line-height: 100px;
+    line-height: 90px;
     height: 100px;
 }
 
 #logo {
+    width: 70px;
     height:70px;
-    line-height: 70px;
-    vertical-align: middle;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
 #title {
     display: inline;
     font-size: 48px;
-    line-height: 100px;
     background-color: rgb(255, 255, 255);
+    padding-left: 90px;
+    vertical-align: middle;
 }
-
 /* Body */
 
