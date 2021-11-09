@@ -11,7 +11,6 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: 'Archivo Black', sans-serif;
     width: 1080px;
-    margin: 0 auto;
 }
 
 .second-container {
@@ -28,7 +27,7 @@ body {
 
 .third-container {
     background-color: rgb(255, 255, 255);
-    height: 600px;
+    height: 620px;
     width: 1000px;
     margin: 0 auto;
     margin-top:10px;
@@ -43,7 +42,6 @@ body {
 #main-header {
     background-color: rgb(255, 255, 255);
     line-height: 90px;
-    height: 100px;
 }
 
 #second-header {
