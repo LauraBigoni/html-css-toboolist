@@ -1,7 +1,6 @@
 /* General */
 * {
-    background-color: rgb(245, 204, 204);
-    font-family: 'Archivo Black', sans-serif;
+    background-color: rgb(228, 228, 228);
 }
 
 body {
@@ -10,19 +9,34 @@ body {
 
 .container {
     background-color: rgb(255, 255, 255);
+    font-family: 'Archivo Black', sans-serif;
     width: 1080px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .second-container {
     background-color: rgb(255, 255, 255);
-    height: 700px;
+    height: 60px;
     width: 1000px;
     margin: auto;
     margin-top:50px;
-    border-radius: 2%;
-    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-sizing: border-box;
 }
+
+.third-container {
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    margin-top:2px;
+    margin-bottom: 100px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-sizing: border-box;
+}
+
 /* Header */
 
 #main-header {
@@ -45,6 +59,30 @@ body {
     background-color: rgb(255, 255, 255);
     padding-left: 90px;
     vertical-align: middle;
+}
+
+#first-button {
+    background-color: #1E90FF;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#second-button {
+    background-color: rgb(255, 255, 255);
+    color:#A5A5A5 ;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid #A5A5A5;
 }
 /* Body */
 
