@@ -100,7 +100,7 @@ p {
     margin-left: 50px
 }
 
-#check {
+.check {
     background-color: rgb(255, 255, 255);
     color: rgb(33,145,33);
     text-decoration: none;
@@ -110,7 +110,7 @@ p {
     text-align: left;
 }
 
-#cross {
+.cross {
     background-color: rgb(255, 255, 255);
     color: rgb(255,4,4);
     text-decoration: none;
