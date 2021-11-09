@@ -1,6 +1,6 @@
 /* General */
 * {
-    background-color: rgb(228, 228, 228);
+    background-color: #F6F8F9;
 }
 
 body {
@@ -124,6 +124,56 @@ p {
 
 .text-blue {
     background-color: #45ABEA;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.text-purple {
+    background-color: #9C72E4;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.text-green {
+    background-color: #64C0A9;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.text-orange {
+    background-color: #F29E33;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.text-pink {
+    background-color: #D863A1;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.text-lightgreen {
+    background-color: #B0C926;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px 10px;
