@@ -1,8 +1,38 @@
 /* General */
+* {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Archivo Black', sans-serif;
+}
 
+body {
+    margin: 0;
+}
 
-/* Head */
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
 
+/* Header */
+
+#main-header {
+    background-color: rgb(255, 255, 255);
+    line-height: 100px;
+    height: 100px;
+}
+
+#logo {
+    height:70px;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+#title {
+    display: inline;
+    font-size: 48px;
+    line-height: 100px;
+    background-color: rgb(255, 255, 255);
+}
 
 /* Body */
 
