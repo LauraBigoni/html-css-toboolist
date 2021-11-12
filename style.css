@@ -1,6 +1,7 @@
 /* General */
 * {
     background-color: #F6F8F9;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: 'Archivo Black', sans-serif;
     width: 1080px;
+    line-height: 100px;
 }
 
 .second-container {
@@ -21,7 +23,6 @@ body {
     margin-top:50px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
 
@@ -34,7 +35,6 @@ body {
     margin-bottom: 100px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
 
@@ -51,16 +51,13 @@ body {
 #logo {
     width: 70px;
     height:70px;
-    position: absolute;
-    top: 15px;
-    left: 15px;
+    vertical-align: middle;
 }
 
 #title {
     display: inline;
-    font-size: 48px;
+    font-size: 44px;
     background-color: rgb(255, 255, 255);
-    padding-left: 90px;
     vertical-align: middle;
 }
 
